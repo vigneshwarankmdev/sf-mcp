@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "salesforce-sent-message-server": {
+      "type": "stdio",
+      "command": "node",
+      "args": [
+        "src/index.js",
+        "stdio"
+      ],
+      "cwd": "."
+    }
+  }
+}
